@@ -1,12 +1,12 @@
 (slowfast) [@localhost slowfast]$ python tools/run_net.py --cfg configs/AVA/c2/SLOWFAST_64x2_R101_50_50.yaml TEST.CHECKPOINT_FILE_PATH model/SLOWFAST_64x2_R101_50_50.pkl  TRAIN.ENABLE False
 [INFO: test_net.py:  122]: Test with config:
 [INFO: test_net.py:  123]: AVA:
-  ANNOTATION_DIR: /home/zhuxt/workspace/slowfast/data/ava/annotations/
+  ANNOTATION_DIR: data/ava/annotations/
   BGR: False
   DETECTION_SCORE_THRESH: 0.8
   EXCLUSION_FILE: ava_val_excluded_timestamps_v2.1.csv
-  FRAME_DIR: /home/zhuxt/workspace/slowfast/data/ava/frames/
-  FRAME_LIST_DIR: /home/zhuxt/workspace/slowfast/data/ava/frame_lists/
+  FRAME_DIR: data/ava/frames/
+  FRAME_LIST_DIR: data/ava/frame_lists/
   FULL_TEST_ON_VAL: False
   GROUNDTRUTH_FILE: ava_val_v2.2.csv
   IMG_PROC_BACKEND: cv2
